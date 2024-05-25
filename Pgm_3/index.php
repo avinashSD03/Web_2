@@ -3,7 +3,7 @@ session_start();
 
 $servername = "localhost";
 $username = "root";
-$password = "MySQL@123";
+$password = "your_pass";
 $dbname = "web_2";
 
 $conn = new mysqli($servername, $username, $password, $dbname);
